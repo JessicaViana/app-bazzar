@@ -29,6 +29,8 @@
 		38634661CEB44A629FE30AEB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C1092457252C4A859F021193 /* SimpleLineIcons.ttf */; };
 		6BA086B19B7B4F8B97046320 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCA42ACBCED84FE494BB065C /* Zocial.ttf */; };
 		CF8513F5C78B4634B394620C /* TenorSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969F9E96C7C342CBAA442A84 /* TenorSans-Regular.ttf */; };
+		385F8A422DE54D369507B4F2 /* BodoniModa_28pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EFDF7102A3947CF979B31EB /* BodoniModa_28pt-Italic.ttf */; };
+		4B2B40D827A245B1AEFE5045 /* BodoniModa_28pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3561967255D14981B73C4338 /* BodoniModa_28pt-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		C1092457252C4A859F021193 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		BCA42ACBCED84FE494BB065C /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		969F9E96C7C342CBAA442A84 /* TenorSans-Regular.ttf */ = {isa = PBXFileReference; name = "TenorSans-Regular.ttf"; path = "../assets/fonts/TenorSans-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6EFDF7102A3947CF979B31EB /* BodoniModa_28pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-Italic.ttf"; path = "../assets/fonts/BodoniModa_28pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3561967255D14981B73C4338 /* BodoniModa_28pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModa_28pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModa_28pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,8 @@
 				C1092457252C4A859F021193 /* SimpleLineIcons.ttf */,
 				BCA42ACBCED84FE494BB065C /* Zocial.ttf */,
 				969F9E96C7C342CBAA442A84 /* TenorSans-Regular.ttf */,
+				6EFDF7102A3947CF979B31EB /* BodoniModa_28pt-Italic.ttf */,
+				3561967255D14981B73C4338 /* BodoniModa_28pt-BoldItalic.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -291,6 +297,8 @@
 				38634661CEB44A629FE30AEB /* SimpleLineIcons.ttf in Resources */,
 				6BA086B19B7B4F8B97046320 /* Zocial.ttf in Resources */,
 				CF8513F5C78B4634B394620C /* TenorSans-Regular.ttf in Resources */,
+				385F8A422DE54D369507B4F2 /* BodoniModa_28pt-Italic.ttf in Resources */,
+				4B2B40D827A245B1AEFE5045 /* BodoniModa_28pt-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

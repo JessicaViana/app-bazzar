@@ -48,12 +48,12 @@ const style = StyleSheet.create({
     elevation:1
   },
   productName: {
-    color: colors.secondary,
+    color: colors.body,
     fontFamily: fonts.fontFamily,
   },
   productPrice: {
     color: colors.primary,
-    fontFamily: fonts.fontFamilySemiBold,
+    fontFamily: fonts.fontFamily,
   },
   image: {
     zIndex: 1,

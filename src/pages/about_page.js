@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { ScrollView, Text, StyleSheet, TextInput, FlatList, View, Image } from 'react-native';
 import { general, fonts, metrics, colors } from '../styles';
 import SearchField from '../components/search_field'
-import CategoriesSection from '../components/categories_section'
+import CategoriesSection from '../components/sections/categories_section'
 import CategoriesCards from '../components/cards/categories_card'
 import Icon from 'react-native-vector-icons/Feather';
 import ProductsCard from '../components/cards/products_card';

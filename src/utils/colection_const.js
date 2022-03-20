@@ -1,8 +1,11 @@
 const colection = [
-    {name: 'primavera'},
-    {name:'verão'},
-    {name:'outono'},
-    {name:'inverno'},
+    {name: '#2021'},
+    {name:'#spring'},
+    {name:'#collection'},
+    {name:'#fall'},
+    {name:'#dress'},
+    {name:'#autumn'},
+    {name:'#openfashion'},
 
 ]
 

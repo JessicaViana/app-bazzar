@@ -18,21 +18,24 @@ const general = {
     //     marginBottom: metrics.doubleBaseMargin,
     //   },
     pageMargin: {
-        margin: metrics.baseMargin,
+        marginHorizontal: metrics.baseMargin,
     },
-    sectionTitle: {
-        color: colors.primary,
-        fontFamily: fonts.fontFamilySemiBold,
-        fontSize: fonts.titleSize * 1.2,
+    headerTitle: {
+        color: colors.titleActive,
+        fontFamily: fonts.fontFamily,
+        fontSize: fonts.title,
         marginVertical: metrics.verticalMargin,
-        letterSpacing: 4
+        letterSpacing: 4,
+        textStroke: 5
         // lineHeight: 140,
     },
     sectionSubTitle: {
-        color: colors.primary,
-        fontFamily: fonts.fontFamilySemiBold,
-        fontSize: fonts.subtitleSize,
+        color: colors.titleActive,
+        fontFamily: fonts.fontFamily,
+        fontSize: fonts.title,
         marginTop: metrics.verticalMargin,
+        textTransform: 'uppercase',
+        letterSpacing: 4,
         // lineHeight: 140,
     },
     sectionRecommended: {
