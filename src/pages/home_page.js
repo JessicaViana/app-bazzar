@@ -11,6 +11,7 @@ import ProductsCard from '../components/cards/products_card';
 import categories from '../utils/categories_const';
 import products from '../utils/products_const';
 import colection from '../utils/colection_const'
+import Slider from '../components/slider';
 
 
 export default function HomePage({ navigation }) {
@@ -23,6 +24,7 @@ export default function HomePage({ navigation }) {
             <View style={{ alignItems: 'center', margin:5 }}>
                 <Text style={general.sectionTitle}>{`BAZZAR`}</Text>
             </View>
+            <Slider/>
             <Image source={require('../../assets/images/banner-1.png')} style={{width: '100%'}} />
             <View style={general.pageMargin} >
             <CategoriesSection title={'Categorias'} />
