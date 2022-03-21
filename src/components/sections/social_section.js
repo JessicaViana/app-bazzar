@@ -6,6 +6,7 @@ import CategoriesSection from './categories_section';
 import Icon from 'react-native-vector-icons/Feather';
 import IconEntypo from 'react-native-vector-icons/Entypo';
 import Divider from '../divider';
+import FooterSection from '../sections/footer_section';
 
 
 export default function SocialSection() {
@@ -25,39 +26,7 @@ export default function SocialSection() {
                         </TouchableOpacity>
                     );
                 }} />
-            <View style={style.groupIcons}>
-                <TouchableOpacity>
-                    <IconEntypo name="twitter" size={24} color={colors.body} style={style.socialIcon} />
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <IconEntypo name="instagram-with-circle" size={24} color={colors.body} style={style.socialIcon} />
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <IconEntypo name="youtube" size={24} color={colors.body} style={style.socialIcon} />
-                </TouchableOpacity>
-            </View>
-            <Divider />
-            <Text style={style.text}>{'support@openui.design\n+60 825 876\n08:00 - 22:00 - Everyday'}
-            </Text>
-            <Divider />
-            <View style={style.groupFooter}>
-                <TouchableOpacity>
-                    <Text style={style.text}>About
-                    </Text>
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={style.text}>Contact
-                    </Text>
-
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={style.text}>Blog
-                    </Text>
-                </TouchableOpacity>
-            </View>
-            <View style={{backgroundColor:'#E6E6E6', width:'100%',alignItems: 'center',}}>
-                <Text style={style.textFooter}>Copyright© OpenUI All Rights Reserved.</Text>
-            </View>
+            <FooterSection/>
         </View>
     );
 }

@@ -50,6 +50,7 @@ const style = StyleSheet.create({
   productName: {
     color: colors.body,
     fontFamily: fonts.fontFamily,
+    marginBottom:5
   },
   productPrice: {
     color: colors.primary,

@@ -3,20 +3,6 @@ import colors from './colors';
 import fonts from './fonts';
 
 const general = {
-    //   container: {
-    //     flex: 1,
-    //     backgroundColor: colors.background,
-    //   },
-    //   section: {
-    //     margin: metrics.doubleBaseMargin,
-    //   },
-    //   sectionTitle: {
-    //     color: colors.text,
-    //     fontWeight: 'bold',
-    //     fontSize: fonts.regular,
-    //     alignSelf: 'center',
-    //     marginBottom: metrics.doubleBaseMargin,
-    //   },
     pageMargin: {
         marginHorizontal: metrics.baseMargin,
     },
@@ -26,7 +12,8 @@ const general = {
         fontSize: fonts.title,
         marginVertical: metrics.verticalMargin,
         letterSpacing: 4,
-        textStroke: 5
+        textStroke: 5,
+        textTransform: 'uppercase',
         // lineHeight: 140,
     },
     sectionSubTitle: {
@@ -39,10 +26,10 @@ const general = {
         // lineHeight: 140,
     },
     sectionRecommended: {
-        color: colors.primary,
-        fontFamily: fonts.fontFamilySemiBold,
+        color: colors.label,
+        fontFamily: fonts.fontFamily,
         fontSize: fonts.recommendedSize,
-        marginTop: metrics.verticalMargin
+        marginTop: metrics.verticalMargin *2
         // lineHeight: 140,
     },
 };

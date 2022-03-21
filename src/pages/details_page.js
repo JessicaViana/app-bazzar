@@ -10,7 +10,7 @@ import colection from '../utils/colection_const'
 export default function DetailsPage({ route, navigation }) {
     const { itemName, itemPrice, itemImage, itemDescription, itemMaterials, itemReview } = route.params;
 
-    const [tab1Style, setTab1Style] = useState(colors.accentVariation);
+    const [tab1Style, setTab1Style] = useState(colors.background);
     const [tab2Style, setTab2Style] = useState();
     const [tab3Style, setTab3Style] = useState();
 
@@ -18,31 +18,31 @@ export default function DetailsPage({ route, navigation }) {
 
 
     const settingTab1Style = () => {
-        if(tab1Style == colors.accentVariation){
+        if(tab1Style == colors.background){
             setTab1Style();
         } else{
-            setTab1Style(colors.accentVariation);
+            setTab1Style(colors.background);
             setText(itemDescription)
             setTab2Style();
             setTab3Style();
         }
     }
     const settingTab2Style = () => {
-        if(tab2Style == colors.accentVariation){
+        if(tab2Style == colors.background){
             setTab2Style();
         } else{
-            setTab2Style(colors.accentVariation);
+            setTab2Style(colors.background);
             setText(itemMaterials)
             setTab1Style();
             setTab3Style();
         }
     }
     const settingTab3Style = () => {
-        if(tab3Style == colors.accentVariation){
+        if(tab3Style == colors.background){
             setTab3Style();
         } else{
             setText(itemReview)
-            setTab3Style(colors.accentVariation);
+            setTab3Style(colors.background);
             setTab1Style();
             setTab2Style();
         }
@@ -56,7 +56,7 @@ export default function DetailsPage({ route, navigation }) {
             backgroundColor: color,
             justifyContent: 'center',
             margin: 2,
-            color: colors.accent,
+            color: colors.background,
         }
     }
 
@@ -80,7 +80,7 @@ export default function DetailsPage({ route, navigation }) {
                         <Text style={style.textButtonActive}>Review</Text>
                     </TouchableOpacity>
                 </View>
-                <Text>
+                <Text style={{fontFamily: fonts.fontFamily, margin:10}}>
                     {text}
                 </Text>
                 <Text style={general.sectionRecommended}>
@@ -130,8 +130,8 @@ const style = StyleSheet.create({
         fontSize: fonts.subtitleSize
     },
     productPrice: {
-        color: colors.accent,
-        fontFamily: fonts.fontFamilySemiBold,
+        color: colors.secondary,
+        fontFamily: fonts.fontFamily,
         fontSize: fonts.subtitleSize
     },
     image: {
@@ -142,8 +142,8 @@ const style = StyleSheet.create({
     },
     
     textButtonActive: {
-        color: colors.accent,
-        fontFamily: fonts.fontFamilySemiBold,
+        color: colors.label,
+        fontFamily: fonts.fontFamily,
         fontSize: fonts.buttonsSize
     },
     

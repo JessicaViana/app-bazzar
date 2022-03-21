@@ -27,8 +27,7 @@ const style = StyleSheet.create({
         flexDirection: 'column'
     },
     viewPadding: {
-        paddingTop: 30,
-        backgroundColor: 'red',
+        paddingTop: 50,
         zIndex: -1
     },
     image: {

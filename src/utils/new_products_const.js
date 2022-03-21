@@ -1,7 +1,7 @@
 const new_products = [
     {
         id: "01",
-        name: 'Reversible cardigan',
+        name: '21WN reversible angora cardigan',
         price: '$400',
         image: require('../../assets/images/new_products/product-1.png'),
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit at massa vehicula, quis fringilla urna gravida.",
@@ -12,7 +12,7 @@ const new_products = [
     },
     {
         id: "01",
-        name: 'Sverom cardigan',
+        name: '21WN reversible angora cardigan',
         price: '$400',
         image: require('../../assets/images/new_products/product-2.png'),
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit at massa vehicula, quis fringilla urna gravida.",
@@ -23,7 +23,7 @@ const new_products = [
     },
     {
         id: "01",
-        name: 'Reversible cardigan',
+        name: '21WN reversible Oblong bag',
         price: '$400',
         image: require('../../assets/images/new_products/product-3.png'),
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit at massa vehicula, quis fringilla urna gravida.",
@@ -34,7 +34,7 @@ const new_products = [
     },
     {
         id: "01",
-        name: 'Reversible cardigan',
+        name: '21WN reversible angora cardigan',
         price: '$400',
         image: require('../../assets/images/new_products/product-4.png'),
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc consectetur velit at massa vehicula, quis fringilla urna gravida.",

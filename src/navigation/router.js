@@ -14,15 +14,17 @@ const Tab = createBottomTabNavigator();
 import HomePage from "../pages/home_page";
 import DetailsPage from "../pages/details_page";
 import AboutPage from "../pages/about_page";
+import ContactUs from '../pages/contact_us';
 import { Header } from 'react-native/Libraries/NewAppScreen';
 import HomeNavigator from './home_navigator';
+import CardsPage from '../pages/cards_page';
 
 const icons = {
     HomePage: {
         name: 'home'
     },
-    Categorias: {
-        name: 'book-open'
+    ContactUs: {
+        name: 'mail'
     },
     Sobre: {
         name: 'bold'
@@ -56,7 +58,7 @@ function Routes() {
                     tabBarStyle: {
                         height: 53,
                         backgroundColor: '#fff',
-                      },
+                    },
 
 
                 })}
@@ -66,16 +68,16 @@ function Routes() {
                     component={HomeNavigator}
                 />
                 <Tab.Screen
-                    name="Categorias"
-                    component={DetailsPage}
-                />
-                <Tab.Screen
                     name="Sobre"
                     component={AboutPage}
                 />
                 <Tab.Screen
+                    name="ContactUs"
+                    component={ContactUs}
+                />
+                <Tab.Screen
                     name="Cartoes"
-                    component={DetailsPage}
+                    component={CardsPage}
                 />
             </Tab.Navigator>
         </NavigationContainer >

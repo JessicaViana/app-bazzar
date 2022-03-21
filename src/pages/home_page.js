@@ -10,7 +10,7 @@ import ProductsCard from '../components/cards/products_card';
 import products from '../utils/products_const';
 import newProducts from '../utils/new_products_const';
 import colection from '../utils/colection_const'
-import Slider from '../components/sliders/slider';
+import Slider from '../components/sliders/todo/slider';
 import Header from '../components/header';
 import SliderHeader from '../components/sliders/slider_header';
 import Divider from '../components/divider';
@@ -27,7 +27,6 @@ export default function HomePage({ navigation }) {
 
     return (
         <>
-            {/* <Slider/> */}
             <Header />
             <ScrollView showsVerticalScrollIndicator={false} alwaysBounceVertical={false} bounces={false}>
                 <View>
@@ -102,8 +101,8 @@ export default function HomePage({ navigation }) {
                     <View style={{ margin: metrics.verticalMargin }} />
                     <CategoriesSection title={'@Trending'} subtitle={'textSize'} />
                     <CategoriesCards categories={colection} />
-                    <AboutSection/>
-                    <SocialSection/>
+                    <AboutSection />
+                    <SocialSection />
                 </View>
 
             </ScrollView>
